@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 # JOYCE'S PORTFOLIO
 ## PROJECT DESCRIPTION
 This is a personal portfolio website showcasing the skills , projects and professional background of Joyce,a Software Engineer from Kenya. The site is designed to be a clean,responsive and engaging platform for potential employersand collaborators to learn more about her work.
@@ -60,3 +61,6 @@ joycemuhura161@gmail.com
 https://github.com/WanjiruKania/PERSONAL-PORTFOLIO.git
 
 
+=======
+
+>>>>>>> 7bde768e4de853a3bd77640e857f283290f48d03
