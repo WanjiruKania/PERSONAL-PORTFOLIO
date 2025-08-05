@@ -1,0 +1,250 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Joyce's Portfolio</title>
+    <!--
+      This link is essential! It tells the browser where to find the styles for this page.
+      Make sure to save the CSS file as "styles.css" in the same folder.
+    -->
+    <link rel="stylesheet" href="styles.css">
+    <!-- Font Awesome is needed for icons like the social media links -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css">
+</head>
+<body>
+    <!-- Cover Page / Hero Section -->
+    <div id="cover-page">
+        <!-- Navigation on the top left -->
+        <nav>
+            <ul>
+                <li><a href="#home">Home</a></li>
+                <li><a href="#about">About</a></li>
+                <li><a href="#services">Services</a></li>
+                <li><a href="#portfolio">Portfolio</a></li>
+                <li><a href="#resume">Resume</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+        </nav>
+        
+        <!-- Name on the top right -->
+        <div id="author-name">
+            <span>J</span>oyce
+        </div>
+
+        <!-- Main content of the cover page -->
+        <div id="hero-content">
+            <h1>Software Engineer</h1>
+            <p>Hello, I'm Joyce from Kenya.</p>
+        </div>
+        
+        <!-- Overlay for better text readability -->
+        <div id="overlay"></div>
+    </div>
+
+    <main id="main-content">
+        <!-- About Me Section -->
+        <section id="about">
+            <h2 class="section-title">About Me</h2>
+            <div id="about-card">
+                <p>Hello! My name is Joyce, and I am a passionate and results-driven Software Engineer from Kenya. I thrive on creating clean, efficient, and scalable web solutions that deliver exceptional user experiences. My journey in technology is fueled by a relentless curiosity and a desire to build things that matter. I am dedicated to continuous learning and staying ahead of the curve in a rapidly evolving industry.</p>
+                <p>Beyond the screen, I find balance and inspiration in the great outdoors while hiking, and I express my creativity through playing the guitar. These hobbies not only refresh my mind but also sharpen my problem-solving skills, allowing me to approach code with a fresh perspective.</p>
+            </div>
+        </section>
+
+        <!-- Skills, Languages & Tools Section -->
+        <section id="skills">
+            <h2 class="section-title">My Skills & Tools</h2>
+            <div id="skills-container">
+                <!-- Skills -->
+                <div class="skills-card">
+                    <h3>Core Skills</h3>
+                    <ul>
+                        <li>Front-End Development: Creating beautiful and responsive user interfaces with HTML, CSS, and JavaScript frameworks.</li>
+                        <li>Back-End Development: Building robust server-side logic and APIs for seamless data management.</li>
+                        <li>Database Management: Designing and maintaining efficient databases to power applications.</li>
+                        <li>Version Control: Expert use of Git for collaborative development and code management.</li>
+                        <li>Problem-Solving: Analyzing and resolving complex technical challenges with innovative solutions.</li>
+                    </ul>
+                </div>
+
+                <!-- Languages -->
+                <div class="skills-card">
+                    <h3>Languages I Use</h3>
+                    <div class="icon-group">
+                        <!-- HTML5 Icon -->
+                        <div class="icon-item">
+                            <i class="fab fa-html5"></i>
+                            <span>HTML5</span>
+                        </div>
+                        <!-- CSS3 Icon -->
+                        <div class="icon-item">
+                            <i class="fab fa-css3-alt"></i>
+                            <span>CSS3</span>
+                        </div>
+                        <!-- JavaScript Icon -->
+                        <div class="icon-item">
+                            <i class="fab fa-js-square"></i>
+                            <span>JavaScript</span>
+                        </div>
+                        <!-- Python Icon -->
+                        <div class="icon-item">
+                            <i class="fab fa-python"></i>
+                            <span>Python</span>
+                        </div>
+                        <!-- Java Icon -->
+                        <div class="icon-item">
+                            <i class="fab fa-java"></i>
+                            <span>Java</span>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Tools & Apps -->
+                <div class="skills-card">
+                    <h3>Tools & Apps</h3>
+                    <div class="icon-group">
+                        <!-- VS Code Icon -->
+                        <div class="icon-item">
+                            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 448 512" fill="currentColor"><path d="M424 256c0-23.7-12.9-44.4-32.3-55.3L288 152v96L192 128 64 256l128 128 96-96v96l103.7-55.3c19.4-10.9 32.3-31.6 32.3-55.3zM10.1 23.3L89.4 69.5l-2.6-3.1C55.4 92.5 32 122.9 32 156.4V355.6C32 389.1 55.4 419.5 86.8 439l2.6-3.1L10.1 488.7c-8.9 5.3-20.2 4.1-27.9-3.2s-9.9-18.7-7.2-28.9L35.2 256 2.2 55.4c-2.7-10.2 .4-21.5 7.2-28.9s19-8.5 27.9-3.2z"/></svg>
+                            <span>VS Code</span>
+                        </div>
+                        <!-- GitHub Icon -->
+                        <div class="icon-item">
+                            <i class="fab fa-github"></i>
+                            <span>GitHub</span>
+                        </div>
+                        <!-- Docker Icon -->
+                        <div class="icon-item">
+                            <i class="fab fa-docker"></i>
+                            <span>Docker</span>
+                        </div>
+                        <!-- Trello Icon -->
+                        <div class="icon-item">
+                            <i class="fab fa-trello"></i>
+                            <span>Trello</span>
+                        </div>
+                        <!-- Figma Icon -->
+                        <div class="icon-item">
+                            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 500 500"><defs><linearGradient id="a" x1=".5" y1="0" x2=".5" y2="1"><stop offset="0" stop-color="#1abcfe"/><stop offset="1" stop-color="#0063f4"/></linearGradient><linearGradient id="b" x1=".5" y1="0" x2=".5" y2="1"><stop offset="0" stop-color="#0063f4"/><stop offset="1" stop-color="#49018e"/></linearGradient><linearGradient id="c" x1="0" y1=".5" x2="1" y2=".5"><stop offset="0" stop-color="#9d52f8"/><stop offset="1" stop-color="#f852f8"/></linearGradient><linearGradient id="d" x1="0" y1=".5" x2="1" y2=".5"><stop offset="0" stop-color="#ff3333"/><stop offset="1" stop-color="#ff7f00"/></linearGradient><linearGradient id="e" x1=".5" y1="0" x2=".5" y2="1"><stop offset="0" stop-color="#ff7f00"/><stop offset="1" stop-color="#ffc700"/></linearGradient></defs><g fill="none" fill-rule="evenodd"><path d="M125 150c0-13.8 11.2-25 25-25h50c13.8 0 25 11.2 25 25v50c0 13.8-11.2 25-25 25h-50c-13.8 0-25-11.2-25-25v-50z" fill="url(#a)"/><path d="M125 225c0-13.8 11.2-25 25-25h50c13.8 0 25 11.2 25 25v50c0 13.8-11.2 25-25 25h-50c-13.8 0-25-11.2-25-25v-50z" fill="url(#b)"/><path d="M200 125c13.8 0 25 11.2 25 25v50c0 13.8-11.2 25-25 25h-50c-13.8 0-25-11.2-25-25V150c0-13.8 11.2-25 25-25z" fill="#9d52f8"/><path d="M275 125h50c13.8 0 25 11.2 25 25v50c0 13.8-11.2 25-25 25h-50c-13.8 0-25-11.2-25-25V150c0-13.8 11.2-25 25-25z" fill="url(#c)"/><path d="M200 275h50c13.8 0 25 11.2 25 25v50c0 13.8-11.2 25-25 25h-50c-13.8 0-25-11.2-25-25v-50c0-13.8 11.2-25 25-25z" fill="url(#d)"/><path d="M200 350h50c13.8 0 25 11.2 25 25v50c0 13.8-11.2 25-25 25h-50c-13.8 0-25-11.2-25-25v-50c0-13.8 11.2-25 25-25z" fill="url(#e)"/></g></svg>
+                            <span>Figma</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Education Section -->
+        <section id="education">
+            <h2 class="section-title">My Education</h2>
+            <div id="education-card">
+                <div>
+                    <h3>Software Engineering</h3>
+                    <p>PLP Academy</p>
+                    <p>2022 - 2023</p>
+                </div>
+                <div>
+                    <h3>Virtual Assistant</h3>
+                    <p>ALX Africa</p>
+                    <p>2021 - 2022</p>
+                </div>
+            </div>
+        </section>
+
+        <!-- Portfolio/Projects Section -->
+        <section id="portfolio">
+            <h2 class="section-title">My Projects</h2>
+            <div id="projects-container">
+                <!-- Project Card 1: Weather App -->
+                <div class="project-card">
+                    <img src="https://placehold.co/600x400/1a202c/e2e8f0?text=Weather+App" alt="Weather App Project">
+                    <div class="project-content">
+                        <h3>Weather App</h3>
+                        <p>A dynamic web application that provides real-time weather forecasts based on user location or a search query, using a third-party weather API. It features a clean, responsive design and displays key weather metrics like temperature, humidity, and wind speed.</p>
+                        <a href="#">View Project</a>
+                    </div>
+                </div>
+                <!-- Project Card 2: Recipe Website -->
+                <div class="project-card">
+                    <img src="https://placehold.co/600x400/1a202c/e2e8f0?text=Recipe+Website" alt="Recipe Website Project">
+                    <div class="project-content">
+                        <h3>Recipe Website</h3>
+                        <p>A comprehensive recipe platform that allows users to search for recipes, filter by ingredients, and view detailed cooking instructions. Built with a robust back-end, it ensures a smooth and engaging user experience.</p>
+                        <a href="#">View Project</a>
+                    </div>
+                </div>
+                <!-- Project Card 3: E-commerce Website -->
+                <div class="project-card">
+                    <img src="https://placehold.co/600x400/1a202c/e2e8f0?text=E-commerce+Site" alt="E-commerce Site Project">
+                    <div class="project-content">
+                        <h3>E-commerce Website</h3>
+                        <p>A full-stack e-commerce application with features like user authentication, a shopping cart, and a product catalog. I implemented a secure checkout process and a clean user interface to provide a seamless shopping experience.</p>
+                        <a href="#">View Project</a>
+                    </div>
+                </div>
+            </div>
+        </section>
+        
+        <!-- Resume Section -->
+        <section id="resume">
+            <h2 class="section-title">My Resume</h2>
+            <div id="resume-card">
+                <p>Click the button below to download my full resume. It provides a detailed look at my skills, projects, and work experience.</p>
+                <!-- This link should point to your actual resume file (e.g., 'Joyce_Resume.pdf') -->
+                <a href="#">
+                    <i class="fas fa-download"></i> Download Resume
+                </a>
+            </div>
+        </section>
+
+        <!-- Contact Section -->
+        <section id="contact">
+            <h2 class="section-title">Contact Me</h2>
+            <div id="contact-card">
+                <p>I am actively seeking new opportunities and collaborations. Feel free to reach out!</p>
+                <div id="social-media-links">
+                    <!-- Facebook Icon -->
+                    <a href="https://facebook.com/wanjiru.kania" target="_blank" aria-label="Facebook">
+                        <i class="fab fa-facebook-square"></i>
+                    </a>
+                    <!-- X (Twitter) Icon -->
+                    <a href="https://twitter.com/joyce_muhura" target="_blank" aria-label="X (Twitter)">
+                        <i class="fab fa-twitter-square"></i>
+                    </a>
+                    <!-- Email Icon -->
+                    <a href="mailto:joycemuhura161@gmail.com" aria-label="Email">
+                        <i class="fas fa-envelope-square"></i>
+                    </a>
+                    <!-- Phone Icon -->
+                    <a href="tel:0721108504" aria-label="Phone">
+                        <i class="fas fa-phone-square-alt"></i>
+                    </a>
+                </div>
+                <p>joycemuhura161@gmail.com | 0721108504</p>
+                <form>
+                    <div>
+                        <label for="name">Name</label>
+                        <input type="text" id="name" name="name">
+                    </div>
+                    <div>
+                        <label for="email">Email</label>
+                        <input type="email" id="email" name="email">
+                    </div>
+                    <div>
+                        <label for="message">Message</label>
+                        <textarea id="message" name="message" rows="4"></textarea>
+                    </div>
+                    <button type="submit">Send Message</button>
+                </form>
+            </div>
+        </section>
+    </main>
+
+    <!-- Footer -->
+    <footer>
+        <div id="footer-content">
+            <p>&copy; 2025 Joyce's Portfolio. All rights reserved.</p>
+        </div>
+    </footer>
+</body>
+</html>
