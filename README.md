@@ -92,7 +92,7 @@ WanjiruKania
 JoyceMuhura
 
 ## License
-This project is open-source and availableunder the MIT License .
+This project is open-source and available under the MIT License .
 =======
 
 >>>>>>> 7bde768e4de853a3bd77640e857f283290f48d03
